@@ -3,6 +3,8 @@ body, html {
     padding: 5%;
     font-family: Arial, sans-serif;
     background: #1e1e1e;
+    border: 4px;
+    border-color: black;
 }
 
 .container {
