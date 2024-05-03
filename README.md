@@ -59,6 +59,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@fredoyetayo](https://twitter.com/fredoyetayo) - me@{myfullname}.co.uk
+[@fredoyetayo](https://twitter.com/fredoyetayo) - me@{myfullname}.co.uk
 
-Project Link: [https://github.com/fredoyetayo/blocked](https://github.com/fredoyetayo/blocked)
+[https://github.com/fredoyetayo/blocked](https://github.com/fredoyetayo/blocked)
