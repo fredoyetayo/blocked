@@ -21,7 +21,7 @@ body, html {
 }
 
 .error-icon img {
-    width: 100px; /* Adjust size accordingly */
+    width: 100px;
 }
 
 .message h2 {
@@ -33,4 +33,4 @@ body, html {
     font-size: 14px;
 }
 
-/* Additional styling as needed */
+*/
