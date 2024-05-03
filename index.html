@@ -21,8 +21,33 @@
             <p>This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
             <h2>What can I do to resolve this?</h2>
             <p>You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up.</p>
+            <p id="countdownTimer"></p>
         </div>
     </div>
 </div>
+<script>
+function startCountdown(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = 'Access will be re-evaluated in ' + minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var fiveMinutes = 60 * 5, // 5 minutes countdown
+        display = document.querySelector('#countdownTimer');
+    startCountdown(fiveMinutes, display);
+};
+</script>
 </body>
 </html>
